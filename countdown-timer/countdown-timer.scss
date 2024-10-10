@@ -1,0 +1,24 @@
+.adswcblock--countdown-timer {
+    #countdown-block {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        @include fluid($m, $xxl, 0px, 25px, 'margin-left');
+        .countdown-item {
+            text-align: center;
+            display: grid;
+        }
+    
+        .number {
+            font-size: 32px;
+            color: #000;
+            line-height: 1;
+        }
+    
+        .label {
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #2b2b2b;
+        }
+    }		
+}
