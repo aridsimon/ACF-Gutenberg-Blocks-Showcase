@@ -1,16 +1,16 @@
-## Countdown Timer Block**
+## Countdown Timer Block
 
 ### Overview
 
-The Countdown Timer block allows users to set a target date and display a countdown on their page. It dynamically updates in real time, displaying the number of days, hours, minutes, and seconds remaining until the target date is reached. Once the countdown expires, a custom message (“EXPIRED”) is displayed.
+The **Countdown Timer** block allows users to set a target date and display a countdown on their page. It dynamically updates in real time, displaying the number of days, hours, minutes, and seconds remaining until the target date is reached. Once the countdown expires, a custom message (“EXPIRED”) is displayed.
 
 ### Features
 
-	• Set a target date via an ACF field.
+	• Set a target date via an **ACF field**.
 	• Automatically updates every second to reflect the remaining time.
-	• Dynamically generates HTML for the countdown based on the target date.
+	• Dynamically generates **HTML** for the countdown based on the target date.
 	• Can be reused multiple times on a single page, each with its own countdown target.
-	• Smooth CSS styling for the countdown display.
+	• Smooth **SCSS** styling for the countdown display.
 
 ### How to Use
 
@@ -26,7 +26,7 @@ The Countdown Timer block allows users to set a target date and display a countd
 		• The countdown functionality is managed by Countdown-Timer.js. This script should be included in your build process.
 		• The script automatically detects all countdown blocks on the page and starts the countdown for each one.
 
-### Example Usage
+## Example Usage
 
 ### ACF Date Field Setup:
 
